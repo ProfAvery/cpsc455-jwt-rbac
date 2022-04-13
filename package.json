@@ -1,0 +1,23 @@
+{
+  "name": "cpsc455-jwt-rbac",
+  "version": "1.0.0",
+  "description": "CPSC 455 - Spring 2022",
+  "scripts": {
+    "start": "npx nodemon headless.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfAvery/cpsc455-jwt-rbac.git"
+  },
+  "author": "Kenytt Avery",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "better-sqlite3": "^7.5.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
